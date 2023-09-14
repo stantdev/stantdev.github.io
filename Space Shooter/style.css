@@ -1,0 +1,39 @@
+body{
+	font-family: arial;
+}
+
+#canvas1{
+	border: 5px solid blueviolet;
+	position: absolute;
+	width: 700px;
+	height: 700px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#anda-kalah{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: red;
+}
+
+#anda-kalah #box{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#anda-kalah h1 {
+	font-size: 56px;
+}
+
+#anda-kalah button{
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+}
